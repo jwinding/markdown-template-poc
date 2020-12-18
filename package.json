@@ -1,0 +1,18 @@
+{
+  "name": "make-pdf-test",
+  "version": "1.0.0",
+  "description": "simple test for generating pdfs from a markdown template",
+  "main": "source/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "ts-node source/generatePdfFromTemplate.ts"
+  },
+  "author": "Jacob Winding",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.15.0",
+    "md-to-pdf": "^3.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
